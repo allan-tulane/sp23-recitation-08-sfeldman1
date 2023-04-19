@@ -13,8 +13,10 @@ and then implement a way to visualize the optimal sequence of edits.
 **1)** The code for `MED` from the lecture notes is provided as a
   starting point in `main.py.` We will consider the edit distance problem which allows for insertions and
   deletions. We will assume that insertions and
-  deletions have the same unit cost. State the optimal substructure property
-  for this version of the edit distance problem and modify `MED` accordingly. 
+  deletions have the same unit cost. State the optimal substructure property for this version of the edit distance problem and modify `MED` accordingly. 
+
+
+
 
 
 **2)** Now implement `fast_MED`, a memoized version of `MED`. Test your implementation code using `test_MED`.
