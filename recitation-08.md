@@ -15,7 +15,7 @@ and then implement a way to visualize the optimal sequence of edits.
   deletions. We will assume that insertions and
   deletions have the same unit cost. State the optimal substructure property for this version of the edit distance problem and modify `MED` accordingly. 
 
-
+The optimal substructure property here is that the minimum distance between them is obtainted by deleting S[-1] or T[-1] or by replacing S[-1] with T[-1] if they are different.
 
 
 
